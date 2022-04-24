@@ -1,0 +1,27 @@
+.site-logoipsum__text {
+    color: #03101A;
+    margin: 0px;
+    margin-top: 63px;
+    margin-bottom: 45px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;    
+}
+.site-logoipsum__img {
+    display: flex;
+    margin-bottom: 112px;
+    justify-content: space-between;
+}
+@media only screen and (max-width:750px) {
+    .site-logoipsum__img {
+        flex-direction: column;
+    }
+    .site-logoipsum__group {
+        margin-top: 40px;
+    }
+    .site-logoipsum {
+        max-width: 300px;
+        width: 100%;
+    }
+}
